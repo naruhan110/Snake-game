@@ -27,8 +27,8 @@ void show_game_board();
 void move();
 void help();
 void diff_select();
-void save_high_score();
-int read_high_score(int high_score);
+void save_high_score(int high_score);
+int read_high_score();
 bool check(int x, int y);
 _locate gen_food();
 
